@@ -26,8 +26,6 @@ namespace SchoolManagementSystem.Model.Model
         /// <summary>
         /// 返回数据集合
         /// </summary>
-        /// 
-
         public T data { get; set; }
 
         /// <summary>

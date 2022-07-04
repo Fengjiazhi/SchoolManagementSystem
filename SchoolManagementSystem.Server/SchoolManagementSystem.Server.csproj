@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolManagementSystem.Common\SchoolManagementSystem.Common.csproj" />
+    <ProjectReference Include="..\SchoolManagementSystem.IRepository\SchoolManagementSystem.IRepository.csproj" />
+    <ProjectReference Include="..\SchoolManagementSystem.IServer\SchoolManagementSystem.IServer.csproj" />
+    <ProjectReference Include="..\SchoolManagementSystem.Model\SchoolManagementSystem.Model.csproj" />
+    <ProjectReference Include="..\SchoolManagementSystem.Repository\SchoolManagementSystem.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
